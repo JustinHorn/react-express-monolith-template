@@ -2,8 +2,11 @@
   "name": "express_react_monolith_template",
   "version": "0.0.0",
   "private": true,
+  "main":"./bin/www",
   "scripts": {
     "start": "node ./bin/www",
+        "dev": "nodemon -e .js,.graphql --ignore '/client'",
+
     "heroku-postbuild": "cd client && yarn && yarn build"
   },
   "dependencies": {
@@ -13,5 +16,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
