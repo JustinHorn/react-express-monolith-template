@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Murtag\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Program Files\ImageMagick-7.0.10-Q16;C:\MinGW\bin;C:\MinGW\libexec\gcc\x86_64-pc-mingw32\5.2.0;C:\Program Files\Java\jdk-13.0.;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\cygen\bin;C:\Program Files\OpenSSH\bin;C:\apache-maven-3.6.1\bin;E:\Program Files\MATLAB\R2016a\runtime\win64;E:\Program Files\MATLAB\R2016a\bin;E:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\dotnet\;E:\Users\Murtag\AppData\Local\Programs\Python\Python38;C:\Users\Murtag\AppData\Local\Programs\Microsoft VS Code\Code.exe;E:\Users\Murtag\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\Wbem;C:\ProgramData\chocolatey\bin;C:\Users\Murtag\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\flutter\bin;C:\Users\Murtag\bin;c:\java\jdk-11.0.2\bin;E:\flutter\.pub-cache\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;E:\Users\Murtag\Anaconda3;E:\Users\Murtag\Anaconda3\Library\mingw-w64\bin;E:\Users\Murtag\Anaconda3\Library\usr\bin;E:\Users\Murtag\Anaconda3\Library\bin;E:\Users\Murtag\Anaconda3\Scripts;E:\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Murtag\AppData\Local\GitHubDesktop\bin;E:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin;;C:\msys64\mingw64\bin;C:\msys64\usr\bin;C:\Users\Murtag\AppData\Local\Programs\Microsoft VS Code\bin;E:\Python\DayPlaner\startbat;E:\Program Files (x86)\FAHClient;C:\Users\Murtag\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\Murtag\AppData\Roaming\npm;C:\Users\Murtag\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\tomcat\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Programs\ReactNodeJs\MERNMonolith\package.json: Unexpected token } in JSON at position 176
+      at JSON.parse (<anonymous>)
+      at C:\Users\Murtag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Murtag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Murtag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mernmonolith",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www",
+      "heroku-postbuild": "cd client && yarn && yarn build",
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
